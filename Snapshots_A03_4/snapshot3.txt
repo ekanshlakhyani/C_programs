@@ -1,0 +1,39 @@
+SNAPSHOT #3 for main.c
+(right after "snapshot #3" is printed)
+
+****************************************
+GLOBAL MEMORY
+  counter: 7
+  
+****************************************
+READ-ONLY MEMORY
+  target: 9
+  fun: 71
+  
+****************************************
+STACK
+===================================
+trace:
+  trace_no: 3
+  return address: foo:51
+===================================
+foo:
+  bf: false
+  return address: bar:58
+===================================
+bar:
+  bb: false
+  return address: foo:49
+===================================
+foo:
+  bf: true
+  return address: main:65
+===================================
+main:
+  pfc = 1
+  foobar: ???
+  return address: OS
+===================================
+
+
+
