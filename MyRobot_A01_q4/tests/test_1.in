@@ -1,0 +1,9 @@
+status
+fwd -2
+pickup
+place
+place
+fwd 3
+right
+fwd 9
+status

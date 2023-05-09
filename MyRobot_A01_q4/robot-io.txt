@@ -1,0 +1,24 @@
+Input format for testing your robot
+
+COMMANDS
+
+  fwd N        calls robot_forward(N) where N is an int
+  right        calls robot_right()
+  left         calls robot_left()
+  place        calls robot_place()
+  pickup       calls robot_pickup()
+  status       calls robot_status()
+  reset        calls robot_reset()
+
+
+Here are the contents of public.in as an example:
+
+  status
+  fwd -1
+  pickup
+  place
+  place
+  fwd 1
+  right
+  fwd 1
+  status

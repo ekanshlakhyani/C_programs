@@ -1,0 +1,9 @@
+robot is at (0,0) and is facing north
+the distance to the beacon is: 0
+the bounding box is (0,0)-(0,0)
+ERROR: invalid distance
+ERROR: beacon is not placed or not at this location
+ERROR: beacon already placed
+robot is at (1,1) and is facing east
+the distance to the beacon is: 2
+the bounding box is (0,0)-(1,1)
