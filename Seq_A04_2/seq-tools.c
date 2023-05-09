@@ -1,26 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////
-// INTEGRITY INSTRUCTIONS (v2)
-
-// Explicitly state the level of collaboration on this question
-// Examples:
-//   * I discussed ideas with classmate(s) [include name(s)]
-//   * I worked together with classmate(s) in the lab [include name(s)]
-//   * Classmate [include name] helped me debug my code
-//   * I consulted website [include url]
-//   * None
-//
-// A "None" indicates you completed this question entirely by yourself
-// (or with assistance from course staff, which you do not have to mention)
-/////////////////////////////////////////////////////////////////////////////
-// INTEGRITY STATEMENT:
-// I received help from and/or collaborated with:
-
-// None
-
-// Name: Ekansh Lakhyani
-// login ID: elakhyan - 20945086
-/////////////////////////////////////////////////////////////////////////////
-
 #include <stdio.h>
 #include <assert.h>
 #include "sequence.h"
@@ -68,65 +45,6 @@ void sequence_map(int (*fp)(int), struct sequence *seq) {
   }
 }
 
-/******************************************************************************
-// DO NOT REMOVE THIS COMMENT BLOCK
-
-These two geese are named "Black" and "Gold".
-They are here to ensure your black & gold code is sufficiently separated
-to avoid any "contamination" if you give/receive help on a black question.
-
-
-
-                                       ___
-                                   ,-""   `.
-                                 ,'  _   e )`-._
-                                /  ,' `-._<.===-'
-                               /  /
-                              /  ;
-                  _          /   ;
-     (`._    _.-"" ""--..__,'    |
-     <_  `-""                     \
-      <`-                          :
-       (__   <__.                  ;
-         `-.   '-.__.      _.'    /
-            \      `-.__,-'    _,'
-             `._    ,    /__,-'
-                ""._\__,'< <____
-                     | |  `----.`.
-                     | |        \ `.
-                     ; |___      \-``
-                     \   --<
-                      `.`.<
-                 hjw    `-'
-
-
-    
-    
-
-                                                            _...--.
-                                            _____......----'     .'
-                                      _..-''                   .'
-                                    .'                       ./
-                            _.--._.'                       .' |
-                         .-'                           .-.'  /
-                       .'   _.-.                     .  \   '
-                     .'  .'   .'    _    .-.        / `./  :
-                   .'  .'   .'  .--' `.  |  \  |`. |     .'
-                _.'  .'   .' `.'       `-'   \ / |.'   .'
-             _.'  .-'   .'     `-.            `      .'
-           .'   .'    .'          `-.._ _ _ _ .-.    :
-          /    /o _.-'     LGB       .--'   .'   \   |
-        .'-.__..-'                  /..    .`    / .'
-      .'   . '                       /.'/.'     /  |
-     `---'                                   _.'   '
-                                           /.'    .'
-                                            /.'/.'
-
-
-    
-    
-source: https://ascii.co.uk/art/goose    
-******************************************************************************/
 
 
 bool sequence_equal(const struct sequence *seq1, const struct sequence *seq2) {
